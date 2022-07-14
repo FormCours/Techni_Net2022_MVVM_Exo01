@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Techni_Net2022_MVVM_Exo01", "Techni_Net2022_MVVM_Exo01\Techni_Net2022_MVVM_Exo01.csproj", "{29E97CBA-5E8B-451C-917C-B8E2F8327107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.MVVM", "Tools.MVVM\Tools.MVVM.csproj", "{6CBD6E7C-DE84-4E60-8C76-358CB88AD81E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29E97CBA-5E8B-451C-917C-B8E2F8327107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E97CBA-5E8B-451C-917C-B8E2F8327107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E97CBA-5E8B-451C-917C-B8E2F8327107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E97CBA-5E8B-451C-917C-B8E2F8327107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CBD6E7C-DE84-4E60-8C76-358CB88AD81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CBD6E7C-DE84-4E60-8C76-358CB88AD81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CBD6E7C-DE84-4E60-8C76-358CB88AD81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CBD6E7C-DE84-4E60-8C76-358CB88AD81E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C3BC1CC-B2D5-4706-99D6-C170C386EB26}
+	EndGlobalSection
+EndGlobal

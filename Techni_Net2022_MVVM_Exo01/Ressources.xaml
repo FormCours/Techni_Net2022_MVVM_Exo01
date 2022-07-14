@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm="clr-namespace:Techni_Net2022_MVVM_Exo01.ViewModels"
+                    xmlns:conv="clr-namespace:Techni_Net2022_MVVM_Exo01.Converters">
+
+   <!-- L'ensemble des ViewModels -->
+   <vm:MainViewModel x:Key="MainVM" />
+   
+   <!-- L'ensemble des Converters -->
+   <conv:BoolToEngineBtnConverter x:Key="BtnStartStop" />
+
+</ResourceDictionary>
