@@ -44,7 +44,6 @@ namespace Techni_Net2022_MVVM_Exo01.ViewModels
             { 
                 _Speed = value;
                 RaisePropertyChanged();
-                RaiseAllCanExecuteChanged();
             }
         }
         public bool IsStart
@@ -54,7 +53,6 @@ namespace Techni_Net2022_MVVM_Exo01.ViewModels
             { 
                 _IsStart = value;
                 RaisePropertyChanged();
-                RaiseAllCanExecuteChanged();
             }
         }
 
@@ -90,14 +88,16 @@ namespace Techni_Net2022_MVVM_Exo01.ViewModels
         #endregion
 
         #region Methods
-        private void RaiseAllCanExecuteChanged()
+        override protected void RaiseAllCanExecuteChanged()
         {
+            // Cette méthode sera appeler lors de l'execution de "RaisePropertyChanged"
             StartCommand.RaiseCanExecuteChanged();
             SpeedUpCommand.RaiseCanExecuteChanged();
             SpeedDownCommand.RaiseCanExecuteChanged();
             TurnLeftCommand.RaiseCanExecuteChanged();
             TurnRightCommand.RaiseCanExecuteChanged();
         }
+
         private void EngineSwitch()
         {
             IsStart = !IsStart;
